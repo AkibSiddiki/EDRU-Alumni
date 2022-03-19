@@ -64,178 +64,95 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="media/imgAll/s-1.webp" class="topslider">
+                        <img src="<?php echo $sSiteURL; ?>media/imgAll/s-1.webp" class="topslider">
                     </div>
                     <div class="carousel-item">
-                        <img src="media/imgAll/s-2.jpg" class="topslider">
+                        <img src="<?php echo $sSiteURL; ?>media/imgAll/s-2.jpg" class="topslider">
                     </div>
                     <div class="carousel-item">
-                        <img src="media/imgAll/s-3.jpg" class="topslider">
+                        <img src="<?php echo $sSiteURL; ?>media/imgAll/s-3.jpg" class="topslider">
                     </div>
                 </div>
             </div>
-            <h2 class="topTitle"> English Department of Rajshahi University Alumni </h2>
+            <div class="topText">
+                <h2 class="topTitle"> English Department of Rajshahi University Alumni </h2>
+                <p class="topSubTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat placeat
+                    praesentium dolores? Officia eos accusantium molestias. Vel, cum hic!</p>
+            </div>
             <div class="multiColorBorder"></div>
         </div>
-        <section class="welcomeSec py-5 ">
+        <section class="welcomeSec">
             <div class="container">
                 <h3 class="text-center">Welcome Alumni</h3>
+                <p class="subtitle pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam saepe
+                    consectetur?</p>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="media/imgAll/alumni.webp" class="img-fluid">
+                        <div class="imgResize">
+                            <figure class="imgViewer">
+                                <picture class="fixingRatio">
+                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/alumni.webp"
+                                        class="img-fluid img100 imgRatio welImg">
+                                </picture>
+                            </figure>
+                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <p>Quoth the stayed so eyes sculptured shore rapping angels nothing that. Grim radiant louder
-                            visiter
-                            that stepped stood that. Be wondering what you we the and sitting get. Then truly no
-                            reclining
-                            marvelled the while nevermore. Oer no on and. A weary albions though where to, come times
-                            another ye
-                            childe a few. Passed not monks come fame what womans scene old by, domestic passion loved
-                            shades
-                            strange blast from, days is that say land evil steel isle heal virtues, breast festal
-                            scorching he
-                            nor and, paphian land any childe. shades
-                            strange blast from, days is that say land evil steel isle heal virtues, breast festal
-                            scorching he
-                            nor and, paphian land any childe. rvelled the while nevermore. Oer no on and. A weary albions though where to, come times
-                            another ye
-                            childe a few. Passed not monks come fame what womans scene old by, domestic passion loved
-                            shades
-                            strange blast from, days is that say land evil steel isle heal virtues, breast festal
-                            scorching he
-                            nor and, paphian land any childe. shades
-                            strange blast from, day </p>
+                        <div class="welcomeNote">
+                            <p><span><i class="fas fa-quote-left"></i></span> Quoth the stayed so eyes sculptured shore
+                                rapping angels nothing that. Grim radiant louder
+                                visiter
+                                that stepped stood that. Be wondering what you we the and sitting get. Then truly no
+                                reclining
+                                marvelled the while nevermore. Oer no on and. A weary albions though where to, come
+                                times
+                                another ye
+                                childe a few. Passed not monks come fame what womans scene old by, domestic passion
+                                loved
+                                shades
+                                strange blast from, days is that say land evil steel isle heal virtues, breast festal
+                                scorching he
+                                nor and, paphian land any childe. shades
+                                strange blast from, days is that say land evil steel isle heal virtues, breast festal
+                                scorching he
+                                nor and, paphian land any childe. rvelled the while nevermore. Oer no on and. A weary
+                                albions though where to, come times
+                                another ye
+                                childe a few. Passed not monks come fame what womans scene old by, domestic passion
+                                loved
+                                shades
+                                strange blast from, days is that say land evil steel isle heal virtues, breast festal
+                                scorching he
+                                nor and, paphian land any childe. shades
+                                strange blast from, day <span><i class="fas fa-quote-right"></i></span></p>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+        </section>
+        <section class="videoSec">
+            <div class="container">
+                <h3 class="secTitle">Introduction Video</h3>
+                <p class="subtitle pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam saepe
+                    consectetur?</p>
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Fxa_tA8t6AU" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="RecentEvent">
             <div class="container">
                 <h3 class="secTitle">Upcoming Event</h3>
+                <p class="subtitle pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam saepe
+                    consectetur?</p>
                 <div id="events" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <a href="#">
-                                <div class="row gx-0">
-                                    <div class="col-5 offset-1">
-                                        <div class="imgResize">
-                                            <figure class="imgViewer">
-                                                <picture class="fixingRatio">
-                                                    <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/slider-1.jpg"
-                                                        class="img-fluid img100 imgRatio eventImg">
-                                                </picture>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-5 bgEvent p-3">
-                                        <h2 class="eventTitle">
-                                            Boat Capsize in Bangladesh - Urgent Funeral Support
-                                        </h2>
-                                        <p class="brief">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
-                                            quaerat
-                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
-                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
-                                            quam
-                                            odit reiciendis perspiciatis!
-                                        </p>
-                                        <p class="date">18 June</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#">
-                                <div class="row gx-0">
-                                    <div class="col-5 offset-1">
-                                        <div class="imgResize">
-                                            <figure class="imgViewer">
-                                                <picture class="fixingRatio">
-                                                    <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/slider-2.jpg"
-                                                        class="img-fluid img100 imgRatio eventImg">
-                                                </picture>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-5 bgEvent p-3">
-                                        <h2 class="eventTitle">
-                                            Boat Capsize in Bangladesh - Urgent Funeral Support
-                                        </h2>
-                                        <p class="brief">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
-                                            quaerat
-                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
-                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
-                                            quam
-                                            odit reiciendis perspiciatis!
-                                        </p>
-                                        <p class="date">18 June</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#">
-                                <div class="row gx-0">
-                                    <div class="col-5 offset-1">
-                                        <div class="imgResize">
-                                            <figure class="imgViewer">
-                                                <picture class="fixingRatio">
-                                                    <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/slider-3.jpg"
-                                                        class="img-fluid img100 imgRatio eventImg">
-                                                </picture>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-5 bgEvent p-3">
-                                        <h2 class="eventTitle">
-                                            Boat Capsize in Bangladesh - Urgent Funeral Support
-                                        </h2>
-                                        <p class="brief">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
-                                            quaerat
-                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
-                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
-                                            quam
-                                            odit reiciendis perspiciatis!
-                                        </p>
-                                        <p class="date">18 June</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#">
-                                <div class="row gx-0">
-                                    <div class="col-5 offset-1">
-                                        <div class="imgResize">
-                                            <figure class="imgViewer">
-                                                <picture class="fixingRatio">
-                                                    <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/sl-2.jpg"
-                                                        class="img-fluid img100 imgRatio eventImg">
-                                                </picture>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="col-5 bgEvent p-3">
-                                        <h2 class="eventTitle">
-                                            Boat Capsize in Bangladesh - Urgent Funeral Support
-                                        </h2>
-                                        <p class="brief">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
-                                            quaerat
-                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
-                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
-                                            quam
-                                            odit reiciendis perspiciatis!
-                                        </p>
-                                        <p class="date">18 June</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
                         <div class="carousel-item active">
                             <a href="#">
                                 <div class="row gx-0">
@@ -243,7 +160,123 @@
                                         <div class="imgResize">
                                             <figure class="imgViewer">
                                                 <picture class="fixingRatio">
-                                                    <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/sl-3.jpg"
+                                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-1.jpg"
+                                                        class="img-fluid img100 imgRatio eventImg">
+                                                </picture>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 bgEvent p-3">
+                                        <h2 class="eventTitle">
+                                            Boat Capsize in Bangladesh - Urgent Funeral Support
+                                        </h2>
+                                        <p class="brief">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
+                                            quaerat
+                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
+                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
+                                            quam
+                                            odit reiciendis perspiciatis!
+                                        </p>
+                                        <p class="date">18 June</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <div class="row gx-0">
+                                    <div class="col-5 offset-1">
+                                        <div class="imgResize">
+                                            <figure class="imgViewer">
+                                                <picture class="fixingRatio">
+                                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-2.jpg"
+                                                        class="img-fluid img100 imgRatio eventImg">
+                                                </picture>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 bgEvent p-3">
+                                        <h2 class="eventTitle">
+                                            Boat Capsize in Bangladesh - Urgent Funeral Support
+                                        </h2>
+                                        <p class="brief">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
+                                            quaerat
+                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
+                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
+                                            quam
+                                            odit reiciendis perspiciatis!
+                                        </p>
+                                        <p class="date">18 June</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <div class="row gx-0">
+                                    <div class="col-5 offset-1">
+                                        <div class="imgResize">
+                                            <figure class="imgViewer">
+                                                <picture class="fixingRatio">
+                                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-3.jpg"
+                                                        class="img-fluid img100 imgRatio eventImg">
+                                                </picture>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 bgEvent p-3">
+                                        <h2 class="eventTitle">
+                                            Boat Capsize in Bangladesh - Urgent Funeral Support
+                                        </h2>
+                                        <p class="brief"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Tenetur rem quaerat odit obcaecati impedit perferendis, laborum nam
+                                            quibusdam cupiditate in sint labore corrupti nemo laudantium! Deserunt ullam
+                                            magni aut ut accusantium quam odit reiciendis perspiciatis! </p>
+                                        <p class="date">18 June</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <div class="row gx-0">
+                                    <div class="col-5 offset-1">
+                                        <div class="imgResize">
+                                            <figure class="imgViewer">
+                                                <picture class="fixingRatio">
+                                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-2.jpg"
+                                                        class="img-fluid img100 imgRatio eventImg">
+                                                </picture>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 bgEvent p-3">
+                                        <h2 class="eventTitle">
+                                            Boat Capsize in Bangladesh - Urgent Funeral Support
+                                        </h2>
+                                        <p class="brief">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem
+                                            quaerat
+                                            odit obcaecati impedit perferendis, laborum nam quibusdam cupiditate in sint
+                                            labore corrupti nemo laudantium! Deserunt ullam magni aut ut accusantium
+                                            quam
+                                            odit reiciendis perspiciatis!
+                                        </p>
+                                        <p class="date">18 June</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <div class="row gx-0">
+                                    <div class="col-5 offset-1">
+                                        <div class="imgResize">
+                                            <figure class="imgViewer">
+                                                <picture class="fixingRatio">
+                                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-3.jpg"
                                                         class="img-fluid img100 imgRatio eventImg">
                                                 </picture>
                                             </figure>
@@ -279,60 +312,115 @@
         <section class="workSection">
             <div class="container">
                 <h3 class="secTitle">Latest News</h3>
+                <p class="subtitle pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam saepe
+                    consectetur?</p>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="workDiv">
-                            <div class="imgResize">
-                                <figure class="imgViewer">
-                                    <picture class="fixingRatio">
-                                        <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/img-1.jpg" class="img-fluid img100 imgRatio eventImg">
-                                    </picture>
-                                </figure>
-                            </div>
-                            <div class="details">
-                                <h3>Boat Capsize in Bangladesh - Urgent Funeral Support</h3>
-                                <p>No to radiant turning respiterespite then. Word implore for i my forgiveness
-                                    beguiling nevermore raven mortals. The heart lady i leave more burning undaunted.
-                                    Cannot. </p>
-                                <p class="date">18 June 2021</p>
-                                <a href="#" class="btn btn-outline-light mt-2" type="button">Learn More</a>
-                            </div>
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-1.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Boat Capsize in Bangladesh - Urgent Funeral Support</h3>
+                                    <p class="date">18 June 2021</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="workDiv">
-                            <div class="imgResize">
-                                <figure class="imgViewer">
-                                    <picture class="fixingRatio">
-                                        <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/img-2.jpg" class="img-fluid img100 imgRatio eventImg">
-                                    </picture>
-                                </figure>
-                            </div>
-                            <div class="details" >
-                                <h3>Devastating Flood of 2020 in Bangladesh</h3>
-                                <p>Beguiling unbrokenquit clasp window weak chamber sad let my farther, nevermore over
-                                    my fancy ominous, implore flown angels as let visiter bust oer now..</p>
-                                <p class="date">21 July 2021</p>
-                                <a href="#" class="btn btn-outline-light mt-2" type="button">Learn More</a>
-                            </div>
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-2.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Devastating Flood of 2020 in Bangladesh</h3>
+                                    <p class="date">21 July 2021</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="workDiv">
-                            <div class="imgResize">
-                                <figure class="imgViewer">
-                                    <picture class="fixingRatio">
-                                        <img src="https://www.emythmaker.com/project/Template/Organization/SadaqahFoundationUSA/Demo-4/media/imgAll/img-3.jpg" class="img-fluid img100 imgRatio eventImg">
-                                    </picture>
-                                </figure>
-                            </div>
-                            <div class="details">
-                                <h3>Qurbani for the Deprived People in Bangladesh</h3>
-                                <p>Still door upon lore of i the ancient at desolate, nothing this bird spoke only have.
-                                    A desert for nepenthe and muttered my i rapping.</p>
-                                <p class="date">11 May 2021</p>
-                                <a href="#" class="btn btn-outline-light mt-2" type="button">Learn More</a>
-                            </div>
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-3.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Qurbani for the Deprived People in Bangladesh</h3>
+                                    <p class="date">11 May 2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="workDiv">
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-3.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Qurbani for the Deprived People in Bangladesh</h3>
+                                    <p class="date">11 May 2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="workDiv">
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-1.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Boat Capsize in Bangladesh - Urgent Funeral Support</h3>
+                                    <p class="date">18 June 2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="workDiv">
+                            <a href="#">
+                                <div class="imgResize">
+                                    <figure class="imgViewer">
+                                        <picture class="fixingRatio">
+                                            <img src="<?php echo $sSiteURL; ?>media/imgAll/ev-2.jpg"
+                                                class="img-fluid img100 imgRatio eventImg">
+                                        </picture>
+                                    </figure>
+                                </div>
+                                <div class="details">
+                                    <h3>Devastating Flood of 2020 in Bangladesh</h3>
+                                    <p class="date">21 July 2021</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -343,7 +431,7 @@
                 </a>
             </div>
         </section>
-        
+
     </main>
     <?php include_once("common/footer.php"); ?>
     <?php include_once("common/scrollBreaking.php"); ?>

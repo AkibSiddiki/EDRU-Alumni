@@ -13,9 +13,8 @@ $sSiteURL="http://localhost/EDRU-Alumni/";
 $sCurrURL="http://localhost/EDRU-Alumni".$_SERVER["REQUEST_URI"];
 
 //Web
-//$sSiteURL="https://www.emythmaker.com/project/Template/EDRU-Alumni/";
-//$sCurrURL="https://www.emythmaker.com/project/Template/EDRU-Alumni".$_SERVER["REQUEST_URI"];
-
+//$sSiteURL="https://www.emythmaker.com/project/Template/Organization/EDRU-Alumni/";
+//$sCurrURL="https://www.emythmaker.com/project/Template/Organization/EDRU-Alumni".$_SERVER["REQUEST_URI"];
 
 $dtTimeDifference=6*60*60;
 $dtDate=gmdate("Y-m-d", time()+$dtTimeDifference);
